@@ -5,7 +5,7 @@ metadata:
   name: my-service
 spec:
   selector:
-    app: Node-test
+    app: my-deployment
   ports:
     - protocol: TCP
       port: 80
