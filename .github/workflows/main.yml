@@ -3,7 +3,7 @@ name: Build, Push, and Deploy
 on:
   push:
     branches:
-      - maIN
+      - main
 
 jobs:
   build-and-deploy:
