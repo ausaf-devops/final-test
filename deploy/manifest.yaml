@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: my-app-container
-          image: ausaf009/node-test-app-image
+          image: ausaf009/nodejs-app-image:main-70159cd012f6e479a782c968bd402f5b43a81b9f
           imagePullPolicy: Always
           ports:
             - containerPort: 4000
